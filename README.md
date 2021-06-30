@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# COVID 19 TRACKER USING REACT.JS & REDUX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LIVE AT: [https://covid19-app-reactjs.web.app/](https://covid19-app-reactjs.web.app/).
 
 ## Available Scripts
 
