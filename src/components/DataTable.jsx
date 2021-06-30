@@ -14,7 +14,7 @@ function DataTable() {
     const [searchQuery, setSearchQuery] = useState("")
 
     let getSearchQuery = (e) => {
-        setSearchQuery(e.target.value)
+        setSearchQuery(e.target.value.toUpperCase())
     }
 
     return (
