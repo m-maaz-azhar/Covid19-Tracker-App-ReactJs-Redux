@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const url = "https://api.covidtracking.com/v1/states/current.json";
+const cors_allower = "https://murmuring-crag-22473.herokuapp.com/"; 
+const url = `${cors_allower}https://api.covidtracking.com/v1/states/current.json`;
 
 export default function getData(dispatch) {
     axios.get(url)
